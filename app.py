@@ -1,15 +1,21 @@
-from PyQt5 import QtWidgets, QtGui, QtCore
-from PyQt5.QtWidgets import QApplication, QMainWindow, QMessageBox
+import os
 import sys
-import cv2 as cv
-import numpy as np
 import time
+
+import numpy as np
+from PIL import Image
+
+import cv2 as cv
+
 import imutils
 import easyocr
-import os
+
+from PyQt5 import QtWidgets, QtGui, QtCore
+from PyQt5.QtWidgets import QApplication, QMainWindow, QMessageBox
 
 os.environ['TF_CPP_MIN_LOG_LEVEL'] = '3'
 os.environ['KMP_DUPLICATE_LIB_OK'] = 'True'
+
 import tensorflow as tf
 
 text_train = ['А', 'Б', 'В', 'Г', 'Д', 'Е', 'Ж', 'З', 'И', 'К', 'Л', 'М', 'Н', 'О', 'П', 'Р', 'С', 'Т', 'У', 'Ф', 'Х',
