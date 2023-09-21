@@ -13,4 +13,4 @@
 5.	startConvertRu 
 Загружает (или обучает и загружает) модель вызывает функции get_letters, convert_litters и побуквенно вызывает функцию img_to_string, формируя предложение и при этом не забывая ставить пробелы между словами.
 
-![alt text](C:\Users\USER\Pictures\Рисунок1.jpg)
+![alt text](https://github.com/DanilChernov1/OCR/blob/main/Im1.jpg)https://github.com/DanilChernov1/OCR/blob/main/Im1.jpg)
